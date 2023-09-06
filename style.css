@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-image: linear-gradient(to right top, #1e1441, #231754, #271b68, #2a1e7d, #2c2292);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
 /* nav section start here  */
 nav{
     display: flex;
@@ -37,13 +44,8 @@ nav div{
 /* nav section end here  */
 
 /* hero area start here */
-header{
-    background-image: linear-gradient(to right top, #1e1441, #231754, #271b68, #2a1e7d, #2c2292);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+header{ 
     padding: 300px 0;
-
 }
 .searchBox-icon-parent{
     display: flex;
@@ -76,9 +78,39 @@ header{
     position: absolute;
     top: 150px;
     right: 45px;
-
-
 }
-
-
 /* hero area end here */
+
+
+/* main section start here */
+
+main{
+    padding-top: 20px;
+}
+.main-section{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.latest-video-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.latest-video-text{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.latest-video-page{
+    color: white;
+}
+.latest-video-page span{
+    color: white;
+    font-size: 15px;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+/* main section end here */
