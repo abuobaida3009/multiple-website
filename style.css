@@ -8,6 +8,7 @@ nav{
     justify-content: space-between;
     background-color: #182C61;
     padding: 10px 60px;
+    border-bottom: 4px solid rgba(30, 12, 58, 0.76);
 }
 nav ul{
     display: flex;
@@ -34,3 +35,50 @@ nav div{
     border-radius: 5px;
 }
 /* nav section end here  */
+
+/* hero area start here */
+header{
+    background-image: linear-gradient(to right top, #1e1441, #231754, #271b68, #2a1e7d, #2c2292);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 300px 0;
+
+}
+.searchBox-icon-parent{
+    display: flex;
+    margin-left: 200px;
+    
+}
+.searchBox-icon-parent i{
+    color: white;
+    background-color: black;
+    font-size: 35px;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.searchBox-icon-parent input{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 15px;
+}
+.header-image img{
+    width: 600px;
+    height: 450px;
+    position: absolute;
+    top: 150px;
+    right: 45px;
+
+
+}
+
+
+/* hero area end here */
