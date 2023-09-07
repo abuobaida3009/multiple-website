@@ -113,4 +113,31 @@ main{
     margin: 0 10px;
     cursor: pointer;
 }
+.single-image-parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap: 60px;
+    grid-column-gap: 20px;
+    margin-top: 20px;
+}
+.single-iteam{
+    width: 250px;
+    border: 2px solid rgb(199, 193, 193);
+}
+.single-iteam img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.single-iteam:hover img{
+    transform: scale(1.1);
+    border-radius: 15px;
+}
+.single-iteam div{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(199, 193, 193);
+    margin-top: 10px;
+}
 /* main section end here */
