@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav section start here  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #182C61;
+    padding: 10px 60px;
+    border-bottom: 4px solid rgba(30, 12, 58, 0.76);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 10px 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 22px 10px;
+}
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+nav div{
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+/* nav section end here  */
+
+.article-contaier{
+    width: 1100px;
+    height: 800px;
+    margin: 0 auto;
+}
+.blog-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+.single-img-dev{
+    height: 400px;
+}
+.single-img-dev img{
+    height: 100%;
+    width: 100%;
+}
+.titel-text{
+    color: #241859;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.titel-text span{
+    color: #FE7265;
+}
+.single-blog{
+    box-shadow: 5px 5px 5px 5px gray;
+    border-radius: 4px;
+}
+.single-text-div{
+    padding: 20px 30px;
+}
+.single-text-div span{
+    color: #FE7265;
+}
+.single-text-div h3{
+    font-size: 22px;
+    margin: 20px 0;
+}
+.single-text-div a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 12px;
+}
+/* footer section start here  */
+
+footer{
+    background-color: black;
+}
+.footer-container{
+    color: white;
+    width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    grid-gap: 50px;
+}
+.first-iteam h3{
+    font-size: 25px;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+.first-iteam:first-child p{
+    margin-bottom: 20px;
+}
+/* footer section end here */
+
+.secound-iteam{
+    font-size: 25px;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+.secound-iteam a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.secound-iteam p{
+    margin-bottom: 10px;
+}
+.third-iteam div{
+    font-size: 25px;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+.third-iteam div a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.third-iteam p{
+    margin-bottom: 10px;
+}
+.third-iteam p:nth-child(3){
+    margin-bottom: 55px;
+}
+/* footer section end here  */
