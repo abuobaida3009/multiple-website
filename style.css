@@ -47,9 +47,14 @@ nav div{
 header{ 
     padding: 300px 0;
 }
+.heading-text{
+    color: white;
+    margin-left: 120px;
+    font-size: 20px;
+}
 .searchBox-icon-parent{
     display: flex;
-    margin-left: 200px;
+    margin-left: 120px;
     
 }
 .searchBox-icon-parent i{
@@ -78,6 +83,7 @@ header{
     position: absolute;
     top: 150px;
     right: 45px;
+    border-radius: 5px;
 }
 /* hero area end here */
 
@@ -139,5 +145,36 @@ main{
     justify-content: space-between;
     color: rgb(199, 193, 193);
     margin-top: 10px;
+}
+
+.previous-next-parent{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.previous-next-parent h3 a{
+    background-color: #FE7265;
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.previous-next-parent h3 a:hover{
+    background-color: #e92918;
+}
+.previous-next-parent a{
+    text-decoration: none;
+    color: white;
+}
+.previous-next-parent div a{
+    margin: 0 10px;
+    background-color: white;
+    color: black;
+    padding: 8px;
+    border: 1px solid rgb(211, 208, 208);
+    border-radius: 5px;
+}
+.previous-next-parent div a:first-child{
+    background-color: #FE7265;
+    color: white;
 }
 /* main section end here */
